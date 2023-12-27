@@ -1,0 +1,44 @@
+#container{
+    width: 30%;
+    padding: 50px 15px;
+    margin: 100px auto;
+    border-radius: 15px;
+    border:2px solid black;
+}
+#container:hover{
+    box-shadow: 1px 1px 5px 6px rgba(0, 0, 0, 0.1);
+}
+
+#container input,
+#container select{
+    display: block;
+    width: 100%;
+    padding:5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#container input:focus{
+    outline-color:green;
+}
+
+#container input[type='submit']{
+   
+    border:0px;
+    outline: 0px;
+    cursor: pointer;
+    padding:10px;
+    font-weight: bold;
+    font-size: 1.2em;
+    background-color: aquamarine;
+}
+
+.form-element{
+    padding:5px 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+*{
+    box-sizing: border-box;
+}
+
